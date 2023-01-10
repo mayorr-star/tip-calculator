@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-family: 'League Spartan', sans-serif;
+}
+body{
+    background-color: hsl(222, 26%, 31%);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+}
+button{
+    background-color: hsl(30, 25%, 89%);
+    padding: 10px 20px;
+    font-size: 32px;
+    width: 90px;
+    border-radius: 7px;
+    border: none;
+    color: hsl(221, 14%, 31%);
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 100%);
+}
+.result{
+    background-color: hsl(224, 36%, 15%);
+    padding: 20px 20px;
+    text-align: right;
+    border-radius: 7px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-size: 32px;
+    height: 100px;
+    align-items: center;
+    width: 107%;
+}
+.calculator{
+    background-color: hsl(223, 31%, 20%);
+    padding: 20px;
+    width: 107%;
+    border-radius: 10px;
+}
+.num-btns{
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    column-gap: 60px;
+    row-gap: 20px;
+}
+.class{
+    display: flex;
+    margin-top: 20px;
+    gap: 10%;
+    width: 100%;
+}
+#reset{
+    width: 50%;
+    color: #fff;
+    background-color: hsl(225, 21%, 49%);
+    padding: 10px;
+}
+#result-btn{
+    width: 50%;
+    background-color: hsl(6, 63%, 50%);
+    color: #fff;
+}
+#del{
+    background-color: hsl(225, 21%, 49%);
+    color: #fff;
+    width: 100px;
+}
